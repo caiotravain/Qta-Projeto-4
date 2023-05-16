@@ -1,0 +1,95 @@
+.card{
+    width: 18.3rem;
+    height: 20rem;
+    background-position: center;
+    color: azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 1.5rem;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.2);
+
+
+}
+.menor{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.title{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+       
+}
+.row_bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    align-items: center;
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 65%;
+    margin-left: 1rem;
+}
+
+.plano{
+    background-color: rgba(22,143,133,0.8);
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 15px;
+    font-weight: 100;
+    width: fit-content
+}
+.check{
+    height: 12px;
+    width: 12px;
+    filter: brightness(0) invert(1);
+    margin-right: 0.2rem;
+}
+.row_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1rem;
+    align-items: center;
+}
+.heart{
+    height: 20px;
+    width: 20px;
+    filter: brightness(0) invert(1);
+    margin-right: 0.2rem;
+    margin-top: auto;
+}
+.button{
+    margin-top: 0.5rem;
+    width: 93%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font: 400 0.95rem 'Roboto', sans-serif;
+}
